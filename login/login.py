@@ -73,3 +73,7 @@ class TestLogin(unittest.TestCase):
         response_data = driver.find_element(By.XPATH, "//div[@role='alert']").text
         print(response_data)
         time.sleep(3)
+
+
+if __name__ == "__main__":
+    unittest.main()
